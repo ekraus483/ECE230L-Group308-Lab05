@@ -12,6 +12,7 @@ circuit_a circuit_a_inst(
     .Y(led[0])
 );
 
+// This implementation is the same as declaring a wire explicitly
 circuit_b circuit_b_inst(
     .A(circuit_a_inst.Y),
     .B(sw[4]),
